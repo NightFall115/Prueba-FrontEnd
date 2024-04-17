@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fondo{
+    background-color: rgb(237, 9, 9);
+}
+/* estilo para el header*/
+.hero{
+    background-image: linear-gradient(120deg,rgba(184, 13, 13, 0.5), rgba(233, 79, 33, 0.8)),
+     url("img/img\ 2.webp");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*position: relative;*/
+    overflow: hidden;
+}
+/* estilos  al div contenedor de los h1 y h1 de los titulos*/
+.texto-hero{
+    color: rgb(255, 0, 0);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo1{
+    font-size: 60px;
+    text-shadow: 0 0 15px black; 
+}
+
+.titulo2{
+    font-size: 45px;
+    text-shadow: 0 0 15px blue;
+}
+
+/* Fin seccion hero*/
+/* Seccion Info*/
+.info{
+    background-color: rgb(237, 9, 9);
+    color: rgb(0, 0, 0);
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.titulo-info{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contenedor-card{
+    display: flex;
+    width: 100;
+    justify-content: space-evenly;
+}
+.card{
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 10px;
+    background-color: rgb(224, 220, 220);
+}
+
+.card:hover{
+    box-shadow: 0 0 10px 0 black;
+    transform: scale(1.1);
+    transition: transform 0.36s;
+}
+.card i{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.card h3{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.card p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.boton{
+    background: transparent;
+    background-color: rgb(0, 4, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
+    padding: 20px 10px;
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 3px;
+}
+
+.boton:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.margin-icon{
+    margin-top: 25px;
+}
+
+
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 35px;
+    display: block;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.galeria{
+    background-color: rgb(151, 48, 48);
+}
+
+.contacto{
+    background-color: rgb(184, 83, 83);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid whitesmoke;
+    font-size: 60%;
+}
+
+.input::placeholder{
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    font-weight: 900; 
+}
+
+.input-ancho{
+    width: 49%;
+    margin-bottom: 30px;
+    display: inline-block;
+    height: 30px;
+}
+
+.textarea-ancho{
+    width: 99%;
+    margin-bottom: 15px;
+}
+
+.nav{
+    background-color: rgb(57, 40, 40);
+    list-style-type: none;
+    width: 1000%;
+    position: center;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav li a:hover{
+    background-color: azure;
+    color: black;
+}
+
+.footer{
+    background-color: rgb(255, 0, 0);
+    color: rgb(22, 2, 2);
+}
+
+.footer p{
+    font-size: 25px;
+}
