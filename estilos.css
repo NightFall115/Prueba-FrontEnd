@@ -6,7 +6,7 @@
 .fondo{
     background-color: rgb(237, 9, 9);
 }
-/* estilo para el header*/
+
 .hero{
     background-image: linear-gradient(120deg,rgba(184, 13, 13, 0.5), rgba(233, 79, 33, 0.8)),
      url("img/img\ 2.webp");
@@ -16,10 +16,9 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /*position: relative;*/
     overflow: hidden;
 }
-/* estilos  al div contenedor de los h1 y h1 de los titulos*/
+
 .texto-hero{
     color: rgb(255, 0, 0);
     height: 250px;
@@ -39,8 +38,6 @@
     text-shadow: 0 0 15px blue;
 }
 
-/* Fin seccion hero*/
-/* Seccion Info*/
 .info{
     background-color: rgb(237, 9, 9);
     color: rgb(0, 0, 0);
